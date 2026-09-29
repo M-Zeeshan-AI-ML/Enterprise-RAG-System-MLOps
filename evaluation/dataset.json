@@ -1,0 +1,7 @@
+[
+  {
+    "question": "Replace this with a question from your test PDF.",
+    "expected_document": "example.pdf",
+    "expected_pages": [1]
+  }
+]
