@@ -2,21 +2,6 @@
 
 Production-oriented RAG API for private PDF knowledge bases.
 
-## What makes this recruiter-ready?
-
-This version includes:
-- PDF ingestion + semantic retrieval
-- Persistent ChromaDB
-- Grounded LLM answers + source citations
-- JWT authentication
-- Structured request/event logging
-- Request IDs and latency tracking
-- Automated tests with pytest
-- GitHub Actions CI
-- Retrieval evaluation scaffold with Recall@5
-- Docker + Docker Compose
-- Environment-based configuration
-
 ## Architecture
 
 Client -> FastAPI -> JWT Auth
@@ -114,20 +99,5 @@ enterprise-rag/
 └── README.md
 ```
 
-## Security
 
-Never commit `.env`, API keys, private PDFs, Chroma data or production credentials.
-
-## Next Production Steps
-
-- Multi-tenant isolation
-- External identity provider
-- PostgreSQL metadata
-- Object storage
-- Managed/distributed vector database
-- OpenTelemetry + Prometheus/Grafana
-- RAG evaluation regression gates
-- Model/version tracking
-- Container image CI/CD
-- Cloud deployment
 - Rate limiting and API gateway
